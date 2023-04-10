@@ -5,6 +5,5 @@ Write a function that takes an array of strings as an argument and returns a sor
 <br/>
 For example, if this array were passed as an argument: <br/>
 `["Telescopes", "Glasses", "Eyes", "Monocles"]` <br/>
-Function would return the following array:
+Function would return the following array: <br/>
 `["Eyes", "Glasses", "Monocles", "Telescopes"]`
-
