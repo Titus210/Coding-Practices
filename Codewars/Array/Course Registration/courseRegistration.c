@@ -5,10 +5,13 @@
 */
 int main(){
 	// declare array and int to hold values
-	int N = 2, M = 50, K = 27; // no of friends, maximum in course, already enrolled
-	int T[3] = {N,M,K};
+	// int N, M, K; // no of friends, maximum in course, already enrolled
+	int T[3];
 	int max = 0, remaining = 0;
-
+	// loop array for input
+	for(int i = 0; i < 3; i++){
+		scanf("%d", &T[i]);
+	}
 
 	// Find maximum no of students in course
 	max = T[0] + T[2];
@@ -17,7 +20,7 @@ int main(){
 
 	// check if remaining is greater 0 to print that students can enroll
 	if(remaining >= 0)
-		printf("Yes");
+		printf("\nYes");
 	else
-		printf("No");
+		printf("\nNo");
 }
