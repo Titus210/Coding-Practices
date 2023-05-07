@@ -22,6 +22,6 @@ var twoSum = function (nums, target) {
     return null; // handle case when no matching pair is found
 };
 
-console.log(twoSum([3, 2, 4], 6)); // gives [1,2] as expected
+console.log(twoSum([3, 2, 4], 6)); 
 
 // @lc code=end
